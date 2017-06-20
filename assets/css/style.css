@@ -1,0 +1,217 @@
+/*.col-lg-12 {
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    margin-left: -15px;
+}
+
+#navbar > li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 5%;
+    text-transform: uppercase;
+}
+#navbar > li a {
+    text-decoration: none;
+    color: white;
+}*/
+
+/*footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}*/
+
+/*------------------------------GENERAL_SETTINGS------------------------------*/
+@font-face {
+    font-family : "FontAwesome";
+    src : url(../fonts/FontAwesome/FontAwesome.otf);
+    src : url(../fonts/FontAwesome/fontawesome-webfont.ttf);
+}
+@font-face {
+    font-family : "SourceSansPro-Light";
+    src : url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+body {
+    height: 100vh;
+    margin-top: 0;
+    /*background-color: #171415;*/
+    background-image: url(../img/printer-933098.jpg);
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+}
+
+.content_width {
+    padding: 0;
+}
+
+/*------------------------------HEADER------------------------------*/
+.blank {
+    height: 20vh;
+}
+
+#bg_pic {
+    width: 80%;
+    height: 105vh;
+    background-image: url(../img/printer-933098.jpg);
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    float: none;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family : "SourceSansPro-Light";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    width: 80;
+    margin: 0 auto;
+    background-color: RGBA(0, 0, 0, 0.5);
+    padding: 4vh;
+    cursor: default;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+/*------------------------------NAV-MENU------------------------------*/
+#nav {
+    /*padding: 25vh 0;*/
+    background-color: RGBA(0, 0, 0, 0.5);
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    height: 3.5vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+#navbar {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    cursor: default;
+}
+
+#navbar > li {
+    list-style: none;
+    width: 20vh;
+    justify-content: center;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-family : "SourceSansPro-Light";
+    letter-spacing: 1px;
+    font-size: 2.2vhpx;
+    margin: 0 2vh;
+    
+}
+.nav_links {
+    text-decoration: none;
+    width: 20vh;
+    color: white;
+    outline: solid 1px white;
+}
+.nav_links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+#current {
+    background-color: RGBA(247, 24, 51, 0.3);
+    text-decoration: none;
+    width: 20vh;
+    color: #FF445A;
+    outline: solid 1px #F71833;
+}
+#current:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #F71833;
+    transition: 0.5s;
+}
+
+/*------------------------------MAIN------------------------------*/
+#main {
+    width: 100%;
+    height: 80vh;
+    float: none;
+    background-color: RGBA(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: -2vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+#content {
+    width: 40vh;
+    display: inline-block;
+    color: white;
+    font-family : "SourceSansPro-Light";
+    margin: 10vh 2vh;
+}
+#content > h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#content > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.icons_gradient {
+    background: linear-gradient(to top, #F71833, #19B7E4, #FEEC1C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heart {
+    font-size: 3vh;
+    color: #F71833;
+}
+
+button {
+    width: 20vh;
+    height: 4vh;
+    background-color: RGBA(0,0,0, 0.5);
+    border: solid 1px RGBA(0,0,0, 0.3);
+    color: white;
+    font-family : "SourceSansPro-Light";
+    font-size: 2vh;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 4vh;
+}
+button:hover {
+    background-color: RGBA(255, 255, 255, 0.7);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*------------------------------FOOTER------------------------------*/
+footer { /*A DECALER APRES */
+    background-color : RGBA(0, 0, 0, 0.5);
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 2vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: "SourceSansPro-Light";
+    font-size: 2vh;
+    /*text-transform: uppercase;*/
+}

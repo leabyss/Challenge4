@@ -1,0 +1,251 @@
+/*.col-lg-12 {
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    margin-left: -15px;
+}
+
+#navbar > li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 5%;
+    text-transform: uppercase;
+}
+#navbar > li a {
+    text-decoration: none;
+    color: white;
+}*/
+
+/*footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}*/
+
+/*------------------------------GENERAL_SETTINGS------------------------------*/
+@font-face {
+    font-family : "FontAwesome";
+    src : url(../../../assets/fonts/FontAwesome/FontAwesome.otf);
+    src : url(../../../assets/fonts/FontAwesome/fontawesome-webfont.ttf);
+}
+@font-face {
+    font-family : "SourceSansPro-Light";
+    src : url(../../../assets/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+body {
+    height: 100vh;
+    margin-top: 0;
+    /*background-color: #171415;*/
+    background-image: url(../../../assets/img/printer-933098.jpg);
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+}
+
+.content_width {
+    padding: 0;
+}
+
+/*------------------------------HEADER------------------------------*/
+.blank {
+    height: 20vh;
+}
+
+#bg_pic {
+    width: 80%;
+    height: 105vh;
+    background-image: url(../../../assets/img/printer-933098.jpg);
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    float: none;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family : "SourceSansPro-Light";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    width: 80;
+    margin: 0 auto;
+    background-color: RGBA(0, 0, 0, 0.5);
+    padding: 4vh;
+    cursor: default;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+/*------------------------------NAV-MENU------------------------------*/
+#nav {
+    /*padding: 25vh 0;*/
+    background-color: RGBA(0, 0, 0, 0.5);
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    height: 4vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+#navbar {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    cursor: default;
+}
+
+#navbar > li {
+    list-style: none;
+    width: 20vh;
+    justify-content: center;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-family : "SourceSansPro-Light";
+    letter-spacing: 1px;
+    font-size: 2.2vh;
+    margin: 0 2vh;
+    
+}
+.nav_links {
+    text-decoration: none;
+    width: 20vh;
+    color: white;
+    outline: solid 1px white;
+}
+
+.nav_links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+#current {
+    background-color: RGBA(254, 236, 28, 0.3);
+    text-decoration: none;
+    width: 20vh;
+    color: #FEEC1C;
+    outline: solid 1px #FEEC1C;
+}
+#current:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #FEEC1C;
+    transition: 0.5s;
+}
+
+/*------------------------------MAIN------------------------------*/
+#main {
+    width: 100%;
+    height: 55vh;
+    float: none;
+    background-color: RGBA(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: -2vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+.content_box {
+    width: 50%;
+    height: 50vh;
+    display: inline-flex;
+    float: left;
+    flex-direction: row;
+}
+
+#infos {
+    margin: 10vh 0 0 0;
+    /*border-right: solid 1px white;*/
+    height: 35vh;
+    text-align: left;
+    margin-left: 5%;
+}
+#infos > li {
+    list-style: none;
+    color: white;
+    font-family : "SourceSansPro-Light";
+    margin: 4vh 0 0 0;
+    width: 75vh;
+}
+#main h2 {
+    font-size: 3.5vh;
+    font-family : "SourceSansPro-Light";
+    color: white;
+    display: inline;
+    margin-left: 2vh;
+    position: relative;
+    bottom: 0.6vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#infos p {
+    font-size: 2.3vh;
+    margin-left: 4.3vh;
+    margin-top: -0.2%;
+}
+.icon1 {color: #F71833;}.icon2 {color: #19B7E4;}.icon3 {color: #FEEC1C;}
+
+#hours {
+    margin: 6.5vh 0 0 0;
+}
+.hours_box {
+    margin-top: 8vh;
+}
+
+table tr td {
+    color: white;
+    width: 30vh;
+    text-align: left;
+    padding: 2vh;
+    text-transform: uppercase;
+    font-family: "SourceSansPro-Light";
+    font-size: 2.3vh;
+    cursor: default;
+}
+.hours_col1 {
+    text-align: right;
+}
+#hours h2{cursor: default;}#hours p{cursor: default;}
+
+/*#content {
+    width: 70%;
+    height: 60vh;
+    background-color: RGBA(39, 116, 210, 0.5);
+}*/
+
+/*------------------------------FOOTER------------------------------*/
+footer { /*A DECALER APRES */
+    background-color : RGBA(0, 0, 0, 0.5);
+    width: 100%;
+    height: 11vh;
+    margin-bottom: 2vh;
+   /* position: relative;
+    bottom: 65vh;*/
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: "SourceSansPro-Light";
+    font-size: 2vh;
+    /*text-transform: uppercase;*/
+}
+
+#hours_info > p {
+    color: white;
+    text-align: right;
+    font-family: "SourceSansPro-Light";
+    font-style: italic;
+    font-size: 2vh;
+    margin-right: 5vh;
+}
